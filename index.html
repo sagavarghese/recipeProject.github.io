@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <section class="container">
+      <nav>
+        <h1 class="logo">My<span class="logo-color">Recipes</span></h1>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="details.html">DETAILS</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="text-box">
+        <h1>The Best Food Recipes</h1>
+        <p>
+          Check out for the best food recipes from our website. Search for the
+          recipe name or <br />the cuisine name and find out various recipes for
+          delicious foods.
+        </p>
+        <input type="text" class="input" id="input" name="input" onkeydown="if(event.keyCode==13) document.getElementById('search-btn').click()" />
+        <button type="submit" class="search-btn" onclick="fun1()" id="search-btn"
+          >Search</a
+        >
+      </div>
+    </section>
+
+    <section class="recipe">
+      <div class="recipe-list" id="recipe-list">
+        </div>
+    </section>
+    <script>
+        
+    </script>
+     <script src="index.js" type="text/javascript"></script> 
+  </body>
+</html>
+

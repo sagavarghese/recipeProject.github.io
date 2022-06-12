@@ -1,0 +1,36 @@
+* {
+  margin: 50px;
+  padding: 0;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: url("images/pexels-lukas-349609.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  font-size: 25px;
+}
+img {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 35%;
+}
+p {
+  font-size: 20px;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+table {
+  background-color: orangered;
+}
+.ingredients {
+  padding: 10px 75px;
+}
